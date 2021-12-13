@@ -33,8 +33,10 @@ def predict_banknote(data:BankNote):
     prediction = classifier.predict([[variance,skewness,curtosis,entropy]])
     if(prediction[0]>0.5):
         prediction="Fake note"
+        return prediction
     else:
         prediction="Its a Bank note"
+        return prediction
     return {
         'prediction': prediction
     }
