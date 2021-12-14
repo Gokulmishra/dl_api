@@ -1,3 +1,3 @@
 # dl_api
-https://bankpredictapi.herokuapp.com/docs
+https://testapidl.herokuapp.com/
 deploying app link
