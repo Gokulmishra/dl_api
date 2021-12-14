@@ -36,7 +36,7 @@ def predict_banknote(data:BankNote):
     else:
         prediction="Its a Bank note"
     #return jsonify({'prediction': str(prediction[0])})    
-    return {'prediction': f'{prediction}'}
+    return {'prediction': prediction}
 
 # 5. Run the API with uvicorn
 #    Will run on http://127.0.0.1:8000
